@@ -7,5 +7,22 @@ li:hover {
 li:active {
     background-color:olivedrab;
     font-style:italic;
-    font-style:bold;
+    font-weight: bold;
+}
+
+li::before {
+    content: "🌧️";
+
+li:hover::after {
+    content: " Vote for me!!";
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+li:active::before {
+    content: "⛈️";
+}
+
+ul {
+    list-style: none;
 }
