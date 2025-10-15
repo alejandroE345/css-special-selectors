@@ -14,15 +14,11 @@ li::before {
     content: "🌧️";
 
 li:hover::after {
-    content: " Vote for me!!";
+    content: "Vote for me!!";
     margin-left: 12px;
     font-weight: bold;
 }
 
 li:active::before {
     content: "⛈️";
-}
-
-ul {
-    list-style: none;
 }

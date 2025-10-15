@@ -13,3 +13,14 @@
 
 /* Add your CSS styles below this line */
 
+.card a {
+    background-color:coral;
+    border-radius: 8px;
+    color:whitesmoke;
+    padding: 6%;
+}
+
+.card p::after{
+    
+}
+
