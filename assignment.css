@@ -35,7 +35,11 @@
 }
 
 .card a:hover {
+    
+}
 
+.card a:active{
+    background-color:red
 }
 
 
