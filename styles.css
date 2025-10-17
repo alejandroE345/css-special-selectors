@@ -13,7 +13,7 @@ li:active {
 li::before {
     content: "🌧️";
 
-li:hover::after {
+li:hover::after{
     content: "Vote for me!!";
     margin-left: 12px;
     font-weight: bold;
