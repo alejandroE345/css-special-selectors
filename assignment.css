@@ -35,7 +35,9 @@
 }
 
 .card a:hover {
-    
+    background-color: rgb(253, 228, 219);
+    border: solid 2px coral;
+    color: coral;
 }
 
 .card a:active{

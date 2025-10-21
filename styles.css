@@ -19,6 +19,6 @@ li:hover::after{
     font-weight: bold;
 }
 
-li:active::before {
-    content: "⛈️";
+li:active::after{
+    content: "🌧️";
 }
